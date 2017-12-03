@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">demo_01</string>
+    <string name="hobitText">您的爱好</string>
+    <string name="read">读书</string>
+    <string name="music">音乐</string>
+    <string name="sport">运动</string>
+    <string name="travel">旅行</string>
+</resources>
