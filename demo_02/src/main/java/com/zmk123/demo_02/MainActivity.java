@@ -22,7 +22,7 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity {
 
     private ListView listView;
-    //gittest
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
