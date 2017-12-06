@@ -22,7 +22,7 @@ import java.util.Map;
 public class MainActivity extends AppCompatActivity {
 
     private ListView listView;
-
+    //gittest
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -105,11 +105,11 @@ public class MainActivity extends AppCompatActivity {
                 view = convertView;
             }
 
-            ImageView imageView = (ImageView) view.findViewById(R.id.photo);
-            TextView textView1 = (TextView) view.findViewById(R.id.name);
-            TextView textView2 = (TextView) view.findViewById(R.id.price);
-            TextView textView3 = (TextView) view.findViewById(R.id.beizhu);
-            RatingBar ratingBar = (RatingBar) view.findViewById(R.id.ratingBar);
+            ImageView imageView = view.findViewById(R.id.photo);
+            TextView textView1 = view.findViewById(R.id.name);
+            TextView textView2 = view.findViewById(R.id.price);
+            TextView textView3 = view.findViewById(R.id.beizhu);
+            RatingBar ratingBar = view.findViewById(R.id.ratingBar);
 
             imageView.setImageResource(Integer.parseInt(getList().get(position).get("photo").toString()));
             textView1.setText(getList().get(position).get("name").toString());
