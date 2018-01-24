@@ -15,6 +15,7 @@ public class MenuActivityOne extends AppCompatActivity {
         setContentView(R.layout.activity_menu_activity_one);
     }
 
+
     //默认自动注册 自动显示
     //激活了默认菜单
    /* @Override
@@ -26,11 +27,11 @@ public class MenuActivityOne extends AppCompatActivity {
         return super.onCreateOptionsMenu(menu);
     }
 
-    //选择处理
+
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-
+        //选择处理
         switch (item.getItemId()){
             case  R.id.save :
                 Toast.makeText(MenuActivityOne.this, "保存", Toast.LENGTH_SHORT).show();
