@@ -265,6 +265,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
 
 
 
+
         addEmailsToAutoComplete(emails);
     }
 
