@@ -260,7 +260,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
         while (!cursor.isAfterLast()) {
             emails.add(cursor.getString(ProfileQuery.ADDRESS));
             cursor.moveToNext();
-            
+
         }
 
 
